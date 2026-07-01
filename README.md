@@ -84,6 +84,27 @@ Codificado con :sparkling_heart: por [José Luis González Sánchez](https://twi
     </a>
 </p>
 
+## Actividades realizadas
+
+Se han dejado preparados y adaptados los ejemplos solicitados para trabajar con Docker en clase:
+
+- ejem01: imagen Apache + PHP 8.2 con editor Vim instalado dentro del contenedor, página editable desde el contenedor y desde VS Code mediante volumen.
+- ejem02 y ejem03: scripts de arranque para WordPress y base de datos, actualizados para usar redes Docker modernas y versiones más recientes.
+- ejem07: stack LEMP con PHP, Nginx, MariaDB y PhpMyAdmin funcionando mediante Docker Compose.
+- ejem09: configuración de reverse proxy con dos sitios web estáticos lista para probar con Docker Compose.
+
+### Uso rápido
+
+- Para ejem01: ejecutar el script [ejemplos/ejem01/run.sh](ejemplos/ejem01/run.sh) y abrir http://localhost:5555.
+- Para ejem07: entrar en [ejemplos/ejem07/docker](ejemplos/ejem07/docker) y ejecutar `docker compose up -d --build`.
+- Para ejem09: entrar en [ejemplos/ejem09](ejemplos/ejem09) y ejecutar `docker compose up -d --build`.
+
+### Capturas de ejemplo
+
+![Vista del ejemplo 01](capturas/ejem01-screenshot.svg)
+
+![Vista del ejemplo 09](capturas/ejem09-screenshot.svg)
+
 ## Licencia
 
 Este proyecto esta licenciado bajo licencia **MIT**, si desea saber más, visite el fichero

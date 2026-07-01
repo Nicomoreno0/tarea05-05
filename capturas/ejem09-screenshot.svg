@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="100%" height="100%" fill="#f8fafc"/>
+  <rect x="40" y="40" width="1120" height="620" rx="16" fill="white" stroke="#d7dde8" stroke-width="2"/>
+  <rect x="60" y="70" width="1080" height="42" rx="8" fill="#111827"/>
+  <circle cx="90" cy="91" r="8" fill="#f87171"/>
+  <circle cx="118" cy="91" r="8" fill="#fbbf24"/>
+  <circle cx="146" cy="91" r="8" fill="#4ade80"/>
+  <text x="190" y="98" font-family="Arial, sans-serif" font-size="22" fill="#e5e7eb">http://localhost:18080</text>
+  <rect x="90" y="170" width="1020" height="420" rx="12" fill="#fefefe" stroke="#e5e7eb"/>
+  <text x="140" y="245" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#111827">Reverse Proxy</text>
+  <text x="140" y="305" font-family="Arial, sans-serif" font-size="28" fill="#374151">Ejemplo 09 funcionando con Nginx y Apache</text>
+  <rect x="140" y="360" width="260" height="80" rx="10" fill="#2563eb"/>
+  <text x="172" y="410" font-family="Arial, sans-serif" font-size="24" font-weight="600" fill="white">Nginx</text>
+  <rect x="430" y="360" width="260" height="80" rx="10" fill="#059669"/>
+  <text x="492" y="410" font-family="Arial, sans-serif" font-size="24" font-weight="600" fill="white">Apache</text>
+  <text x="140" y="500" font-family="Arial, sans-serif" font-size="20" fill="#64748b">Puerto 18080 para el proxy y 18081 para el sitio Apache</text>
+</svg>
