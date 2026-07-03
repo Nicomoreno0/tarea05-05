@@ -1,0 +1,53 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql_ejem7
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: mi_base
+      MYSQL_USER: usuario
+      MYSQL_PASSWORD: userpass
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - red_ejem7
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    container_name: phpmyadmin_ejem7
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+      PMA_USER: root
+      PMA_PASSWORD: rootpass
+    ports:
+      - "8081:80"
+    depends_on:
+      - mysql
+    networks:
+      - red_ejem7
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: web_ejem7
+    ports:
+      - "8000:80"
+    volumes:
+      - ./www:/var/www/html
+    depends_on:
+      - mysql
+    networks:
+      - red_ejem7
+
+volumes:
+  mysql_data:
+
+networks:
+  red_ejem7:
+    driver: bridge

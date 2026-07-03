@@ -91,13 +91,19 @@ Se han dejado preparados y adaptados los ejemplos solicitados para trabajar con 
 - ejem01: imagen Apache + PHP 8.2 con editor Vim instalado dentro del contenedor, página editable desde el contenedor y desde VS Code mediante volumen.
 - ejem02 y ejem03: scripts de arranque para WordPress y base de datos, actualizados para usar redes Docker modernas y versiones más recientes.
 - ejem07: stack LEMP con PHP, Nginx, MariaDB y PhpMyAdmin funcionando mediante Docker Compose.
+- ejem7: entorno completo con MySQL, PHPMyAdmin y PHP/Apache. El index.php conecta a MySQL, crea tabla usuarios automáticamente, inserta datos de ejemplo y los muestra con diseño moderno.
 - ejem09: configuración de reverse proxy con dos sitios web estáticos lista para probar con Docker Compose.
 
 ### Uso rápido
 
 - Para ejem01: ejecutar el script [ejemplos/ejem01/run.sh](ejemplos/ejem01/run.sh) y abrir http://localhost:5555.
 - Para ejem07: entrar en [ejemplos/ejem07/docker](ejemplos/ejem07/docker) y ejecutar `docker compose up -d --build`.
-- Para ejem09: entrar en [ejemplos/ejem09](ejemplos/ejem09) y ejecutar `docker compose up -d --build`.
+- Para ejem7: entrar en [ejemplos/ejem7](ejemplos/ejem7) y ejecutar `docker compose up -d --build`. Acceder a:
+  - http://localhost:8000 (App PHP)
+  - http://localhost:8081 (PHPMyAdmin)
+- Para ejem09: entrar en [ejemplos/ejem09](ejemplos/ejem09) y ejecutar `docker compose up -d --build`. Acceder a los sitios mediante:
+  - http://site1.example.com
+  - http://site2.example.com
 
 ### Capturas de ejemplo
 
@@ -106,6 +112,10 @@ Se han dejado preparados y adaptados los ejemplos solicitados para trabajar con 
 ![Captura Nicolas Moreno - Ejemplo 01](capturas/Captura de pantalla 2026-07-03 012852.png)
 
 ![Captura Nicolas Moreno - WordPress Ejemplo 02](capturas/Captura de pantalla 2026-07-03 014038.png)
+
+![Captura Nicolas Moreno - Ejemplo 7 App PHP](capturas/Captura de pantalla 2026-07-03 015402.png)
+
+![Captura Nicolas Moreno - Ejemplo 7 PHPMyAdmin](capturas/Captura de pantalla 2026-07-03 015630.png)
 
 ![Vista del ejemplo 09](capturas/ejem09-screenshot.svg)
 
