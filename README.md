@@ -109,13 +109,13 @@ Se han dejado preparados y adaptados los ejemplos solicitados para trabajar con 
 
 ![Vista del ejemplo 01](capturas/ejem01-screenshot.svg)
 
-![Captura Nicolas Moreno - Ejemplo 01](capturas/Captura de pantalla 2026-07-03 012852.png)
+![Captura Nicolas Moreno - Ejemplo 01](capturas/Captura%20de%20pantalla%202026-07-03%20012852.png)
 
-![Captura Nicolas Moreno - WordPress Ejemplo 02](capturas/Captura de pantalla 2026-07-03 014038.png)
+![Captura Nicolas Moreno - WordPress Ejemplo 02](capturas/Captura%20de%20pantalla%202026-07-03%20014038.png)
 
-![Captura Nicolas Moreno - Ejemplo 7 App PHP](capturas/Captura de pantalla 2026-07-03 015402.png)
+![Captura Nicolas Moreno - Ejemplo 7 App PHP](capturas/Captura%20de%20pantalla%202026-07-03%20015402.png)
 
-![Captura Nicolas Moreno - Ejemplo 7 PHPMyAdmin](capturas/Captura de pantalla 2026-07-03 015630.png)
+![Captura Nicolas Moreno - Ejemplo 7 PHPMyAdmin](capturas/Captura%20de%20pantalla%202026-07-03%20015630.png)
 
 ![Vista del ejemplo 09](capturas/ejem09-screenshot.svg)
 
