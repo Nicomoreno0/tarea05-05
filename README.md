@@ -103,6 +103,10 @@ Se han dejado preparados y adaptados los ejemplos solicitados para trabajar con 
 
 ![Vista del ejemplo 01](capturas/ejem01-screenshot.svg)
 
+![Captura Nicolas Moreno - Ejemplo 01](capturas/Captura de pantalla 2026-07-03 012852.png)
+
+![Captura Nicolas Moreno - WordPress Ejemplo 02](capturas/Captura de pantalla 2026-07-03 014038.png)
+
 ![Vista del ejemplo 09](capturas/ejem09-screenshot.svg)
 
 ## Licencia
