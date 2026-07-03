@@ -107,17 +107,53 @@ Se han dejado preparados y adaptados los ejemplos solicitados para trabajar con 
 
 ### Capturas de ejemplo
 
+#### Ejemplo 01 - Apache + PHP 8.2
+
 ![Vista del ejemplo 01](capturas/ejem01-screenshot.svg)
+
+**Consigna ejem01:** Edición dentro del contenedor de Docker y desde VS Code.
+- Instalación de editor Vim dentro del contenedor
+- Edición del archivo index.html con nombre, fecha y materia
+- Conexión desde VS Code usando extensión Remote Explorer
+- Actualización de PHP 7.0 a PHP 8.2 para compatibilidad
 
 ![Captura Nicolas Moreno - Ejemplo 01](capturas/Captura%20de%20pantalla%202026-07-03%20012852.png)
 
+#### Ejemplo 02 - WordPress
+
 ![Captura Nicolas Moreno - WordPress Ejemplo 02](capturas/Captura%20de%20pantalla%202026-07-03%20014038.png)
+
+**Consigna ejem02:** Script run.sh para despliegue de WordPress.
+- Interpretación de comandos en script run.sh
+- Ejecución manual en terminal de VS Code
+- Despliegue de WordPress con Docker
+
+#### Ejemplo 07 - Stack LEMP
+
+**Consigna ejem07:** Stack LEMP con PHP, Nginx, MariaDB y PhpMyAdmin.
+- Configuración completa mediante Docker Compose
+- Implementación realizada el 16-06-2026
+
+#### Ejemplo 7 - MySQL + PHPMyAdmin + PHP
 
 ![Captura Nicolas Moreno - Ejemplo 7 App PHP](capturas/Captura%20de%20pantalla%202026-07-03%20015402.png)
 
 ![Captura Nicolas Moreno - Ejemplo 7 PHPMyAdmin](capturas/Captura%20de%20pantalla%202026-07-03%20015630.png)
 
+**Consigna ejem7:** Entorno completo con MySQL, PHPMyAdmin y PHP/Apache.
+- Conexión automática de PHP a MySQL
+- Creación automática de tabla usuarios
+- Inserción de datos de ejemplo
+- Interfaz PHPMyAdmin para administración visual
+- Diseño moderno en la aplicación PHP
+
+#### Ejemplo 09 - Reverse Proxy
+
 ![Vista del ejemplo 09](capturas/ejem09-screenshot.svg)
+
+**Consigna ejem09:** Configuración de reverse proxy con dos sitios web estáticos.
+- Implementación realizada el 16-06-2026
+- Acceso mediante site1.example.com y site2.example.com
 
 ## Licencia
 
